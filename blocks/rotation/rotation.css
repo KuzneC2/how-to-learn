@@ -1,18 +1,14 @@
 @keyframes rotat {
-    from {
-      transform: rotate(0deg);
-    }
-  
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .rotation {
-    animation: rotat 20s ease infinite;
-    overflow: hidden;
-  }
-
-
-
-  
+  animation: rotat 20s linear infinite;
+  transition-timing-function: linear;
+}
